@@ -94,3 +94,21 @@ print(a)
 
 a **= b
 print(a)
+
+
+
+#python逻辑运算符
+'''
+and     布尔  与  如果x为false
+or      布尔  "或"  
+not     布尔  "非"
+'''
+
+c = 10
+d = 20
+
+if c > d  or d > c :
+    print("or 输出")
+
+if d > c   and c < d :
+    print(" and 使用与 ")
